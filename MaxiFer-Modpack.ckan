@@ -11,6 +11,8 @@
     "depends": [
         { "name": "DarkMultiPlayer", "version": "v0.3.8.5" },
         { "name": "Spectra" },
+        { "name": "Scatterer" },
+        { "name": "Spectra-Scatterer" },
         { "name": "ParallaxContinued" },
         { "name": "StockWaterfallEffects" },
         { "name": "DistantObject-default" },

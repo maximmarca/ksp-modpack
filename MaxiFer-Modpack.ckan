@@ -1,0 +1,23 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "MaxiFer-KSP-Modpack",
+    "name": "Maxi & Fer KSP Modpack",
+    "abstract": "Modpack para multijugador DarkMultiPlayer: cliente DMP + visuales + planetas + propulsion interestelar. Para KSP 1.12.5.",
+    "author": [ "maximmarca" ],
+    "version": "1.0",
+    "ksp_version": "1.12.5",
+    "kind": "metapackage",
+    "license": "MIT",
+    "depends": [
+        { "name": "DarkMultiPlayer", "version": "v0.3.8.5" },
+        { "name": "Spectra" },
+        { "name": "ParallaxContinued" },
+        { "name": "StockWaterfallEffects" },
+        { "name": "DistantObject-default" },
+        { "name": "TUFX" },
+        { "name": "OuterPlanetsMod" },
+        { "name": "NearFuturePropulsion" },
+        { "name": "NearFutureElectrical" },
+        { "name": "FarFutureTechnologies" }
+    ]
+}

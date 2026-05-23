@@ -2,9 +2,9 @@
     "spec_version": "v1.34",
     "identifier": "MaxiFer-KSP-Modpack",
     "name": "Maxi & Fer KSP Modpack",
-    "abstract": "Modpack para multijugador DarkMultiPlayer: cliente DMP + visuales + planetas + propulsion interestelar. Para KSP 1.12.5.",
+    "abstract": "Modpack para multijugador DarkMultiPlayer: cliente DMP + visuales + planetas + propulsion interestelar + QoL career + contratos. Para KSP 1.12.5.",
     "author": [ "maximmarca" ],
-    "version": "1.0",
+    "version": "2.0",
     "ksp_version": "1.12.5",
     "kind": "metapackage",
     "license": "MIT",
@@ -20,6 +20,20 @@
         { "name": "OuterPlanetsMod" },
         { "name": "NearFuturePropulsion" },
         { "name": "NearFutureElectrical" },
-        { "name": "FarFutureTechnologies" }
+        { "name": "FarFutureTechnologies" },
+        { "name": "KerbalEngineerRedux" },
+        { "name": "KerbalAlarmClock" },
+        { "name": "TransferWindowPlanner" },
+        { "name": "xScienceContinued" },
+        { "name": "DockingPortAlignmentIndicator" },
+        { "name": "EditorExtensionsRedux" },
+        { "name": "KAS" },
+        { "name": "KIS" },
+        { "name": "ContractConfigurator" },
+        { "name": "ContractConfigurator-Tourism" },
+        { "name": "ContractConfigurator-KerbinSpaceStation" },
+        { "name": "ContractConfigurator-FieldResearch" },
+        { "name": "ContractConfigurator-ExplorationPlus" },
+        { "name": "ContractConfigurator-AnomalySurveyor" }
     ]
 }

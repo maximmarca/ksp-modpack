@@ -2,7 +2,9 @@
 
 Pack de mods para jugar **Kerbal Space Program 1.12.5** en multijugador con DarkMultiPlayer.
 
-Incluye: cliente multijugador + mejoras visuales + planetas nuevos + propulsión interestelar.
+Incluye: cliente multijugador + mejoras visuales + planetas nuevos + propulsión interestelar + herramientas de career + contratos.
+
+**Server en modo CAREER**: progresión completa con ciencia, fondos y contratos.
 
 ## ✅ Instalación recomendada (con CKAN)
 
@@ -18,20 +20,56 @@ Listo. Todos los jugadores instalan **el mismo `.ckan`** → versiones idéntica
 
 ## Mods incluidos
 
+### Multiplayer
 | Mod | Para qué |
 |-----|----------|
 | DarkMultiPlayer v0.3.8.5 | Cliente multijugador |
-| Spectra | Nubes, atmósferas (incluye EVE + Scatterer) |
-| Parallax Continued | Terreno 3D con relieve y vegetación |
+
+### Visuales
+| Mod | Para qué |
+|-----|----------|
+| Spectra | Nubes, atmósferas (EVE + Scatterer config) |
+| Scatterer | Atmósferas físicamente realistas |
+| Parallax Continued (+ texturas) | Terreno 3D con relieve y vegetación |
 | Stock Waterfall Effects | Plumas de motor realistas |
 | Distant Object Enhancement | Planetas/naves visibles a distancia |
 | TUFX | Post-procesado visual |
+
+### Planetas y propulsión
+| Mod | Para qué |
+|-----|----------|
 | Outer Planets Mod | Planetas nuevos más allá de Jool |
 | Near Future Propulsion | Motores iónicos / plasma |
 | Near Future Electrical | Reactores nucleares |
 | Far Future Technologies | Fusión, antimateria, propulsión interestelar |
 
-CKAN agrega solo todas las dependencias (Module Manager, Kopernicus, etc.).
+### Quality of life (career)
+| Mod | Para qué |
+|-----|----------|
+| Kerbal Engineer Redux | Lee Δv, TWR, parámetros orbitales en vuelo y en VAB |
+| Kerbal Alarm Clock | Alarmas para maniobras, encuentros, ventanas |
+| Transfer Window Planner | Calcula ventanas de transferencia interplanetarias |
+| [x] Science! Continued | Gestor de experimentos por bioma |
+| Docking Port Alignment Indicator | Indicador visual para acoplamientos |
+| Editor Extensions Redux | Mejoras VAB/SPH (simetría, snap, mirror) |
+
+### EVA / bases
+| Mod | Para qué |
+|-----|----------|
+| KAS (Kerbal Attachment System) | Cuerdas, tuberías, conectores entre naves |
+| KIS (Kerbal Inventory System) | Inventarios EVA, construcción en órbita/superficie |
+
+### Contratos (career)
+| Mod | Para qué |
+|-----|----------|
+| Contract Configurator | Framework para los packs siguientes |
+| Contract Pack: Tourism Plus | 15 contratos de turistas |
+| Contract Pack: Bases and Stations Reborn | Construir bases planetarias y estaciones orbitales |
+| Contract Pack: Field Research | Misiones de ciencia en sitios específicos |
+| Contract Pack: Exploration Plus | Sobrevuelos y aterrizajes en cuerpos celestes |
+| Contract Pack: Anomaly Surveyor | Explorar anomalías (Monoliths, Face on Duna, etc.) |
+
+CKAN agrega solo todas las dependencias (Module Manager, Kopernicus, Community Tech Tree, Community Resource Pack, etc.).
 
 ## Conectarse al server
 

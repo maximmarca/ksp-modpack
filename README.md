@@ -1,10 +1,10 @@
 # KSP Modpack — Maxi & Fer
 
-Pack de mods para jugar **Kerbal Space Program 1.12.5** en multijugador con DarkMultiPlayer.
+Pack de mods para jugar **Kerbal Space Program 1.12.5** en multijugador con **LunaMultiplayer** (LMP).
 
 Incluye: cliente multijugador + mejoras visuales + planetas nuevos + propulsión interestelar + herramientas de career + contratos.
 
-**Server en modo CAREER**: progresión completa con ciencia, fondos y contratos.
+**Server en modo CAREER compartido**: progresión única — ciencia, fondos, árbol tecnológico y contratos se sincronizan entre los jugadores. Lo que cumple uno, suma para los dos.
 
 ## ✅ Instalación recomendada (con CKAN)
 
@@ -23,7 +23,8 @@ Listo. Todos los jugadores instalan **el mismo `.ckan`** → versiones idéntica
 ### Multiplayer
 | Mod | Para qué |
 |-----|----------|
-| DarkMultiPlayer v0.3.8.5 | Cliente multijugador |
+| LunaMultiplayer v0.29.2 | Cliente multijugador con carrera compartida |
+| Harmony2 | Dependencia de LMP (patching runtime) |
 
 ### Visuales
 | Mod | Para qué |
@@ -73,16 +74,22 @@ CKAN agrega solo todas las dependencias (Module Manager, Kopernicus, Community T
 
 ## Conectarse al server
 
-KSP → botón **DMP** → **Add Server**. La dirección y el puerto te los pasa Maxi por privado.
-El **player name** tiene que ser exactamente el que esté en la whitelist del server.
+KSP → menú principal aparece el botón **LMP** → **Add Server**.
 
-## Opción B — instalar el cliente DMP a mano (sin CKAN)
-
-En `GameData/DarkMultiPlayer/` está el cliente DMP v0.3.8.5 suelto, por si querés solo
-el multijugador sin el resto de los mods: copiá esa carpeta dentro del `GameData` de tu KSP.
+La dirección, el puerto y la contraseña te los pasa Maxi por privado. Como referencia general:
+- **Address**: `maxi-ksp.duckdns.org`
+- **Port**: `8800` (UDP — LMP cambió respecto a DMP)
+- **Password**: te la pasa Maxi
+- **Player name**: el que acuerdes con Maxi (acordarlo antes para evitar conflictos)
 
 ## Agregar mods nuevos (para el que mantiene el pack)
 
 1. Instalá el mod nuevo con CKAN.
 2. Agregá su identificador a la lista `depends` de `MaxiFer-Modpack.ckan`.
 3. Commit + push. Los demás vuelven a instalar el `.ckan`.
+
+## Historia del pack
+
+- **v1.0** (2026-05-21): primer release con DarkMultiPlayer + visuales + planetas + propulsión.
+- **v2.0** (2026-05-23): server pasado a CAREER, agregados QoL (KER, KAC, TWP, etc.), KAS/KIS y 6 Contract Packs.
+- **v3.0** (2026-05-23): migración de DarkMultiPlayer a **LunaMultiplayer** — career compartida real entre jugadores. Cambio de puerto a 8800/UDP.
